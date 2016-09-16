@@ -6,4 +6,4 @@ php:
 matrix:
   fast_finish: true
 
-script: echo 'ok'
+script: vendor/bin/phpcs src/

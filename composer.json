@@ -6,28 +6,7 @@
   ],
   "description": "This is custom composer file, which should define extra dependencies for OXID eShop.",
   "type": "project",
-  "keywords": ["oxid", "modules", "eShop"],
-  "homepage": "https://www.oxid-esales.com/en/home.html",
-  "minimum-stability": "dev",
-  "prefer-stable": true,
-  "repositories": {
-    "oxid-esales/oxideshop-metapackage-ce": {
-      "type": "path",
-      "url": "/var/www/ESDEV-3649/oxideshop_metapackage_ce"
-    },
-    "oxid-esales/oxideshop-composer-plugin": {
-      "type": "path",
-      "url": "/var/www/ESDEV-3649/oxideshop_composer_plugin"
-    },
-    "oxid-esales/oxideshop-ce": {
-      "type": "path",
-      "url": "/var/www/oxideshop_ce/"
-    }
-  },
-  "config": {
-    "vendor-dir": "eshop/source/vendor"
-  },
   "require": {
-    "oxid-esales/oxideshop-metapackage-ce": "*"
+    "squizlabs/php_codesniffer": "2.3.1"
   }
 }
