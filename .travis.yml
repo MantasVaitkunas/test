@@ -9,4 +9,6 @@ matrix:
 before_script:
   - composer install
 
-script: vendor/bin/phpcs src/
+script:
+  - vendor/bin/phpcs src/
+  - echo 'ok'
